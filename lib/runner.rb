@@ -1,6 +1,7 @@
 require_relative "blackjack.rb"
 
-def runner
+
+runner
   welcome
   number = initial_round
   until number >= 21
@@ -9,5 +10,3 @@ def runner
   end_game(number)
 end
   
-
-runner
