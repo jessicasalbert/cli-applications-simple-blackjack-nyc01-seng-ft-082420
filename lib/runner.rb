@@ -5,8 +5,8 @@ def runner
   number = initial_round
   until number >= 21
     hit?(number)
+  end
   
-  hit?
   
 
 runner
